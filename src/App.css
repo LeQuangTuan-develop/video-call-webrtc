@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-container {
+  max-width: 1024px;
+}
+
+.videoBox {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.videoLocal {
+  position: absolute;
+  bottom: 80px;
+  right: 10px;
+  width: 200px;
+  height: 150px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: black;
+  border: 1px solid gray;
+}
+
+.videoRemote {
+  width: 1000px;
+  height: 500px;
+  margin: 5px;
+  background-color: black;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.button-call {
+  width: 80px;
+  height: 50px;
+  margin: 0 4px;
+  border-radius: 20px;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-call {
+  background-color: green;
+}
+
+.btn-answer {
+  background-color: rgb(5, 97, 202);
+}
+
+.btn-cancel {
+  background-color: #bc3c3c;
+}
+
+@media screen and (max-width: 768px) {
+  .video-container {
+    width: 100%;
+  }
+
+  .videoBox {
+    border-radius: 0;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0;
+  }
+
+  .videoRemote {
+    width: 100vw;
+    height: calc(100vh - 60px);
+    margin: 0
+  }
+
+  .videoLocal {
+    top: 10px;
+    bottom: 0;
+    width: 40vw;
+    height: 30vh;
+  }
+}
