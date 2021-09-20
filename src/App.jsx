@@ -232,8 +232,8 @@ class App extends Component {
               {!isCall && <button className="button-call btn-call" onClick={this.createOffer}>Gọi</button>}
               {!isClickedAnswer && isCallee && <button className="button-call btn-answer" onClick={this.createAnswer}>Trả lời</button>}
               {isCall && <button className="button-call btn-cancel" onClick={this.cancelCall}>Hủy</button>}
-              {isCall && <button className="button-call btn-cancel" onClick={this.onOffCam}>Cam</button>}
-              {isCall && <button className="button-call btn-cancel" onClick={this.onOffMic}>Mic</button>}
+              {isCall && <button className="button-call btn-camera" onClick={this.onOffCam}>Cam</button>}
+              {isCall && <button className="button-call btn-audio" onClick={this.onOffMic}>Mic</button>}
             </div>
           </div>
           {/* <textarea style={{ width: 450, height: 40, display: "none" }} ref={ref => { this.textref = ref }} /> */}

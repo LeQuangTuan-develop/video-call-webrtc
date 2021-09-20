@@ -16,18 +16,18 @@ export const pc_config = {
         //   username: 'tuanlqps14736@fpt.edu.vn'
         // },
         {
-            urls: ["stun:ss-turn2.xirsys.com"]
-        },
+            urls: [ "stun:ss-turn1.xirsys.com" ]
+        }, 
         {
-            username: "SL5X7cJw92B3v3X50Py-NYN6xdo9j7CXriaUuC52i0yqjx0i5i6JpvXDH5Ux2uoBAAAAAGFCpbdRdWFuZ1R1YW4xNjU=",
-            credential: "272d8792-1692-11ec-897d-0242ac140004",
+            username: "K98R0xENxW54u-O075JEYFK27Z1hnafXlbfs83lHCC-Eo0NccDFa6fZ8C06minMCAAAAAGFH2rJMVExpZXU=",
+            credential: "abb53402-19ac-11ec-82dc-0242ac140004",
             urls: [
-                "turn:ss-turn2.xirsys.com:80?transport=udp",
-                "turn:ss-turn2.xirsys.com:3478?transport=udp",
-                "turn:ss-turn2.xirsys.com:80?transport=tcp",
-                "turn:ss-turn2.xirsys.com:3478?transport=tcp",
-                "turns:ss-turn2.xirsys.com:443?transport=tcp",
-                "turns:ss-turn2.xirsys.com:5349?transport=tcp"
+                "turn:ss-turn1.xirsys.com:80?transport=udp",
+                "turn:ss-turn1.xirsys.com:3478?transport=udp",
+                "turn:ss-turn1.xirsys.com:80?transport=tcp",
+                "turn:ss-turn1.xirsys.com:3478?transport=tcp",
+                "turns:ss-turn1.xirsys.com:443?transport=tcp",
+                "turns:ss-turn1.xirsys.com:5349?transport=tcp"
             ]
         }
     ],

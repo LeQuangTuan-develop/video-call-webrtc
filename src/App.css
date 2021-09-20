@@ -90,6 +90,14 @@
   background-color: #bc3c3c;
 }
 
+.btn-camera {
+  background-color: #bc3c3c;
+}
+
+.btn-audio {
+  background-color: #bc3c3c;
+}
+
 @media screen and (max-width: 768px) {
   .video-container {
     width: 100%;
